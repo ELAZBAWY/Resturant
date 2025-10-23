@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(10, 34, 46);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: A;
+  src: url("/Fonts/Bitter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+html {
+  scroll-behavior: smooth;
+}

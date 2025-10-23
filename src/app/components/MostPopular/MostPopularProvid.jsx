@@ -1,0 +1,88 @@
+import { v4 as uuidv4 } from "uuid";
+const MostPopularPrvid = [
+  {
+    id: uuidv4(),
+    title: "Checken burger",
+    image: "/images/card5.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 20,
+  },
+  {
+    id: uuidv4(),
+    title: "Breakfast & lunch",
+    image: "/images/card6.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 46,
+  },
+  {
+    id: uuidv4(),
+    title: "Drinks",
+    image: "/images/card7.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 33,
+  },
+  {
+    id: uuidv4(),
+    title: "Starters",
+    image: "/images/card8.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 25,
+  },
+  {
+    id: uuidv4(),
+    title: "Checken burger",
+    image: "/images/card9.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 50,
+  },
+  {
+    id: uuidv4(),
+    title: "Cheese burger",
+    image: "/images/card10.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 60,
+  },
+  {
+    id: uuidv4(),
+    title: "Beef Burger",
+    image: "/images/card11.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 77,
+  },
+  {
+    id: uuidv4(),
+    title: "Fish Burger",
+    image: "/images/card12.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 50,
+  },
+  {
+    id: uuidv4(),
+    title: "Egg Burger",
+    image: "/images/card13.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 90,
+  },
+  {
+    id: uuidv4(),
+    title: "Spicy Burger",
+    image: "/images/card14.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 89,
+  },
+  {
+    id: uuidv4(),
+    title: "Bacon Burger",
+    image: "/images/card15.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 23,
+  },
+  {
+    id: uuidv4(),
+    title: "BBQ Burger",
+    image: "/images/card16.jpg",
+    disc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. saepe amet quidem quis laboriosam dolore culpa!",
+    price: 18,
+  },
+];
+export default MostPopularPrvid;
