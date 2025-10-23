@@ -1,5 +1,7 @@
 body {
   background-color: rgb(10, 34, 46);
+    overflow-x: hidden;
+
 }
 * {
   padding: 0;
@@ -13,7 +15,6 @@ body {
 }
 html {
   scroll-behavior: smooth;
-}
-html, body {
-  overflow-x: hidden;
+    overflow-x: hidden;
+
 }
