@@ -47,7 +47,7 @@ export default function Navbar() {
     width: "100%",
     backgroundColor: {
       xs: "transparent", // 📱 موبايل: بدون خلفية
-      md: scrolled ? "rgba(10, 34, 46, 0.9)" : "transparent", // 💻 ديسكتوب: حسب حالة التمرير
+      md: scrolled ? "rgba(10, 34, 46)" : "transparent", // 💻 ديسكتوب: حسب حالة التمرير
     },
     backdropFilter: { md: scrolled ? "blur(6px)" : "none" },
     boxShadow: { md: scrolled ? "0 4px 20px rgba(0,0,0,0.3)" : "none" },
