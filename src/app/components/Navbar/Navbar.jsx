@@ -37,25 +37,20 @@ export default function Navbar() {
   return (
     <Box
       sx={{
-        flexGrow: 1,
-   position: "sticky",
-top: 0,
-
- // ✅ يثبتها فوق الشاشة
-        left: 0,
-        width: "100%",
-        backgroundColor: scrolled
-          ? "rgba(10, 34, 46, 0.9)" // ✅ بعد السكروول (غامقة)
-          : "transparent", // ✅ في البداية (شفافة)
-        backdropFilter: scrolled ? "blur(6px)" : "none",
-        boxShadow: scrolled ? "0 4px 20px rgba(0,0,0,0.3)" : "none",
-        zIndex: 1000, // ✅ خليها فوق أي محتوى
-        display: "flex",
-        alignContent: "center",
-        justifyContent: "center",
-        textAlign: "center",
-        py: 1,
-        transition: "background-color 0.4s ease, box-shadow 0.4s ease",
+    flexGrow: 1,
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    backgroundColor: scrolled ? "rgba(10, 34, 46, 0.9)" : "transparent",
+    backdropFilter: scrolled ? "blur(6px)" : "none",
+    boxShadow: scrolled ? "0 4px 20px rgba(0,0,0,0.3)" : "none",
+    zIndex: 1000,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    py: 1,
+    transition: "background-color 0.4s ease, box-shadow 0.4s ease",
       }}
     >
       <Grid container spacing={1}>
