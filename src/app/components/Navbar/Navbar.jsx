@@ -36,22 +36,29 @@ export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
   return (
     <Box
-      sx={{
+  sx={{
     flexGrow: 1,
-    position: "fixed",
-    top: 0,
-    left: 0,
+    position: {
+      xs: "static", // 📱 في الموبايل: عادي بدون تثبيت
+      md: "fixed", // 💻 من أول الشاشات المتوسطة فأكبر: ثابت فوق
+    },
+    top: { md: 0 },
+    left: { md: 0 },
     width: "100%",
-    backgroundColor: scrolled ? "rgba(10, 34, 46, 0.9)" : "transparent",
-    backdropFilter: scrolled ? "blur(6px)" : "none",
-    boxShadow: scrolled ? "0 4px 20px rgba(0,0,0,0.3)" : "none",
-    zIndex: 1000,
+    backgroundColor: {
+      xs: "transparent", // 📱 موبايل: بدون خلفية
+      md: scrolled ? "rgba(10, 34, 46, 0.9)" : "transparent", // 💻 ديسكتوب: حسب حالة التمرير
+    },
+    backdropFilter: { md: scrolled ? "blur(6px)" : "none" },
+    boxShadow: { md: scrolled ? "0 4px 20px rgba(0,0,0,0.3)" : "none" },
+    zIndex: { md: 1000 },
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    textAlign: "center",
     py: 1,
     transition: "background-color 0.4s ease, box-shadow 0.4s ease",
-      }}
+  }}
     >
       <Grid container spacing={1}>
         <Grid
