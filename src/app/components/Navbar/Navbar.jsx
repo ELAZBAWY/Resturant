@@ -38,8 +38,10 @@ export default function Navbar() {
     <Box
       sx={{
         flexGrow: 1,
-        position: "fixed", // ✅ يثبتها فوق الشاشة
-        top: 0,
+   position: "sticky",
+top: 0,
+
+ // ✅ يثبتها فوق الشاشة
         left: 0,
         width: "100%",
         backgroundColor: scrolled
